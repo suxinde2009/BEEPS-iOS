@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F68B1B02047D23900E0B86D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F68B1AF2047D23900E0B86D /* AppDelegate.m */; };
+		1F68B1B32047D23900E0B86D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F68B1B22047D23900E0B86D /* ViewController.m */; };
+		1F68B1B62047D23900E0B86D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F68B1B42047D23900E0B86D /* Main.storyboard */; };
+		1F68B1B82047D23900E0B86D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F68B1B72047D23900E0B86D /* Assets.xcassets */; };
+		1F68B1BB2047D23900E0B86D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F68B1B92047D23900E0B86D /* LaunchScreen.storyboard */; };
+		1F68B1BE2047D23900E0B86D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F68B1BD2047D23900E0B86D /* main.m */; };
+		1F68B1C72047D64B00E0B86D /* UIImage+BitmapRGBA8.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F68B1C62047D64B00E0B86D /* UIImage+BitmapRGBA8.m */; };
+		1F68B1CA2047D6E700E0B86D /* ImageBEEPSDermabrasion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F68B1C92047D6E700E0B86D /* ImageBEEPSDermabrasion.m */; };
+		1F68B1D02047D90100E0B86D /* mopi4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F68B1CC2047D90100E0B86D /* mopi4.jpg */; };
+		1F68B1D12047D90100E0B86D /* mopi3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F68B1CD2047D90100E0B86D /* mopi3.jpg */; };
+		1F68B1D22047D90100E0B86D /* mopi2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F68B1CE2047D90100E0B86D /* mopi2.jpg */; };
+		1F68B1D32047D90100E0B86D /* mopi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F68B1CF2047D90100E0B86D /* mopi.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F68B1AB2047D23900E0B86D /* BEEPS-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BEEPS-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F68B1AE2047D23900E0B86D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F68B1AF2047D23900E0B86D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F68B1B12047D23900E0B86D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F68B1B22047D23900E0B86D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F68B1B52047D23900E0B86D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F68B1B72047D23900E0B86D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F68B1BA2047D23900E0B86D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F68B1BC2047D23900E0B86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F68B1BD2047D23900E0B86D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F68B1C52047D64B00E0B86D /* UIImage+BitmapRGBA8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+BitmapRGBA8.h"; sourceTree = "<group>"; };
+		1F68B1C62047D64B00E0B86D /* UIImage+BitmapRGBA8.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BitmapRGBA8.m"; sourceTree = "<group>"; };
+		1F68B1C82047D6E600E0B86D /* ImageBEEPSDermabrasion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageBEEPSDermabrasion.h; sourceTree = "<group>"; };
+		1F68B1C92047D6E700E0B86D /* ImageBEEPSDermabrasion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageBEEPSDermabrasion.m; sourceTree = "<group>"; };
+		1F68B1CC2047D90100E0B86D /* mopi4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mopi4.jpg; sourceTree = "<group>"; };
+		1F68B1CD2047D90100E0B86D /* mopi3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mopi3.jpg; sourceTree = "<group>"; };
+		1F68B1CE2047D90100E0B86D /* mopi2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mopi2.jpg; sourceTree = "<group>"; };
+		1F68B1CF2047D90100E0B86D /* mopi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mopi.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F68B1A82047D23900E0B86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F68B1A22047D23900E0B86D = {
+			isa = PBXGroup;
+			children = (
+				1F68B1AD2047D23900E0B86D /* BEEPS-iOS */,
+				1F68B1AC2047D23900E0B86D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F68B1AC2047D23900E0B86D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F68B1AB2047D23900E0B86D /* BEEPS-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F68B1AD2047D23900E0B86D /* BEEPS-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1F68B1CB2047D8E700E0B86D /* Resources */,
+				1F68B1C42047D24100E0B86D /* Classes */,
+				1F68B1AE2047D23900E0B86D /* AppDelegate.h */,
+				1F68B1AF2047D23900E0B86D /* AppDelegate.m */,
+				1F68B1B12047D23900E0B86D /* ViewController.h */,
+				1F68B1B22047D23900E0B86D /* ViewController.m */,
+				1F68B1B42047D23900E0B86D /* Main.storyboard */,
+				1F68B1B72047D23900E0B86D /* Assets.xcassets */,
+				1F68B1B92047D23900E0B86D /* LaunchScreen.storyboard */,
+				1F68B1BC2047D23900E0B86D /* Info.plist */,
+				1F68B1BD2047D23900E0B86D /* main.m */,
+			);
+			path = "BEEPS-iOS";
+			sourceTree = "<group>";
+		};
+		1F68B1C42047D24100E0B86D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1F68B1C52047D64B00E0B86D /* UIImage+BitmapRGBA8.h */,
+				1F68B1C62047D64B00E0B86D /* UIImage+BitmapRGBA8.m */,
+				1F68B1C82047D6E600E0B86D /* ImageBEEPSDermabrasion.h */,
+				1F68B1C92047D6E700E0B86D /* ImageBEEPSDermabrasion.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1F68B1CB2047D8E700E0B86D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F68B1CF2047D90100E0B86D /* mopi.jpg */,
+				1F68B1CE2047D90100E0B86D /* mopi2.jpg */,
+				1F68B1CD2047D90100E0B86D /* mopi3.jpg */,
+				1F68B1CC2047D90100E0B86D /* mopi4.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F68B1AA2047D23900E0B86D /* BEEPS-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F68B1C12047D23900E0B86D /* Build configuration list for PBXNativeTarget "BEEPS-iOS" */;
+			buildPhases = (
+				1F68B1A72047D23900E0B86D /* Sources */,
+				1F68B1A82047D23900E0B86D /* Frameworks */,
+				1F68B1A92047D23900E0B86D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BEEPS-iOS";
+			productName = "BEEPS-iOS";
+			productReference = 1F68B1AB2047D23900E0B86D /* BEEPS-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F68B1A32047D23900E0B86D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "SkyPrayer Studio";
+				TargetAttributes = {
+					1F68B1AA2047D23900E0B86D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1F68B1A62047D23900E0B86D /* Build configuration list for PBXProject "BEEPS-iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F68B1A22047D23900E0B86D;
+			productRefGroup = 1F68B1AC2047D23900E0B86D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F68B1AA2047D23900E0B86D /* BEEPS-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F68B1A92047D23900E0B86D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F68B1BB2047D23900E0B86D /* LaunchScreen.storyboard in Resources */,
+				1F68B1D12047D90100E0B86D /* mopi3.jpg in Resources */,
+				1F68B1D32047D90100E0B86D /* mopi.jpg in Resources */,
+				1F68B1D02047D90100E0B86D /* mopi4.jpg in Resources */,
+				1F68B1B82047D23900E0B86D /* Assets.xcassets in Resources */,
+				1F68B1B62047D23900E0B86D /* Main.storyboard in Resources */,
+				1F68B1D22047D90100E0B86D /* mopi2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F68B1A72047D23900E0B86D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F68B1B32047D23900E0B86D /* ViewController.m in Sources */,
+				1F68B1C72047D64B00E0B86D /* UIImage+BitmapRGBA8.m in Sources */,
+				1F68B1BE2047D23900E0B86D /* main.m in Sources */,
+				1F68B1B02047D23900E0B86D /* AppDelegate.m in Sources */,
+				1F68B1CA2047D6E700E0B86D /* ImageBEEPSDermabrasion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F68B1B42047D23900E0B86D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F68B1B52047D23900E0B86D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F68B1B92047D23900E0B86D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F68B1BA2047D23900E0B86D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F68B1BF2047D23900E0B86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F68B1C02047D23900E0B86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F68B1C22047D23900E0B86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BEEPS-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skyprayer.BEEPS-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F68B1C32047D23900E0B86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BEEPS-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skyprayer.BEEPS-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F68B1A62047D23900E0B86D /* Build configuration list for PBXProject "BEEPS-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F68B1BF2047D23900E0B86D /* Debug */,
+				1F68B1C02047D23900E0B86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F68B1C12047D23900E0B86D /* Build configuration list for PBXNativeTarget "BEEPS-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F68B1C22047D23900E0B86D /* Debug */,
+				1F68B1C32047D23900E0B86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F68B1A32047D23900E0B86D /* Project object */;
+}
